@@ -21,6 +21,7 @@
 		DA43CA83190EA6A10088CB7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA43CA65190EA6A10088CB7A /* UIKit.framework */; };
 		DA43CA8B190EA6A10088CB7A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA43CA89190EA6A10088CB7A /* InfoPlist.strings */; };
 		DA43CA8D190EA6A10088CB7A /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA43CA8C190EA6A10088CB7A /* GitTestTests.m */; };
+		DA43CA98190EB09D0088CB7A /* ccTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DA43CA97190EB09D0088CB7A /* ccTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		DA43CA88190EA6A10088CB7A /* GitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitTestTests-Info.plist"; sourceTree = "<group>"; };
 		DA43CA8A190EA6A10088CB7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DA43CA8C190EA6A10088CB7A /* GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestTests.m; sourceTree = "<group>"; };
+		DA43CA96190EB09D0088CB7A /* ccTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccTest.h; sourceTree = "<group>"; };
+		DA43CA97190EB09D0088CB7A /* ccTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ccTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		DA43CA55190EA6A10088CB7A = {
 			isa = PBXGroup;
 			children = (
+				DA43CA96190EB09D0088CB7A /* ccTest.h */,
+				DA43CA97190EB09D0088CB7A /* ccTest.m */,
 				DA43CA67190EA6A10088CB7A /* GitTest */,
 				DA43CA86190EA6A10088CB7A /* GitTestTests */,
 				DA43CA60190EA6A10088CB7A /* Frameworks */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA43CA72190EA6A10088CB7A /* ccAppDelegate.m in Sources */,
+				DA43CA98190EB09D0088CB7A /* ccTest.m in Sources */,
 				DA43CA6E190EA6A10088CB7A /* main.m in Sources */,
 				DA43CA78190EA6A10088CB7A /* ccViewController.m in Sources */,
 			);
